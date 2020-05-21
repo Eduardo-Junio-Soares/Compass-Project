@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compass</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/706253daee.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div class="overlay">
+    </div>
+    <header class="main-header">
+        <div class="logo">
+            <a href="#" class="nav-toggle">
+                <i class="fas fa-bars" id="bars"></i>
+            </a>
+            <img src="./sources/5e0728bb0d37a194ce229aec_compasslogo.png" alt="">
+
+        </div>
+        <div class="content-header">
+            <div class="header-menu"><a href="#" class="nav-close"><i class="fas fa-times" id="iconNone"></i></a>
+                <ul>
+                    <li>
+                        <a class="options" href="#">Buy</a>
+                    </li>
+
+                    <li>
+                        <a class="options" href="#">Rent</a>
+                    </li>
+
+                    <li>
+                        <a class="options" href="#">Sell</a>
+                    </li>
+
+                    <li>
+                        <a class="options" id="compass" href="#">Compass Exclusives <i
+                                class="fas fa-angle-down"></i></a>
+                        <div id="itemCompass" class="options-down">
+                            <a href="#">Private Exclusives</a>
+                            <a href="#">Coming Soon</a>
+                            <a href="#">Compass Listings</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a class="options" href="#">New Development</a>
+                    </li>
+
+                    <li>
+                        <a class="options" id="agent" href="#">Agents <i class="fas fa-angle-down"></i></a>
+                        <div class="options-down" id="itemAgent">
+                            <a href="#">Find an Agent</a>
+                            <a href="#">Join as an Agent</a>
+                        </div>
+                    </li>
+            </div>
+            </ul>
+            <div class="login-signup">
+                <ul>
+                    <li>
+                        <a class="options" href="#">Register/Sign In</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </header>
+
+    <main class="main-content">
+        <section class="section-search">
+            <h1>Find your Place.</h1>
+            <div class="search">
+                <div class="search-type" action="">
+                    <button class="btn-type active">Buy</button>
+                    <button class="btn-type">Rent</button>
+                </div>
+                <form class="form-search" action="">
+                    <input type="search" placeholder="City, Neighborhood, Address, School, ZIP, Agent, MLS #">
+                    <button><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+        </section>
+
+        <section class="homepage">
+            <div class="content">
+                <header class="header-homepage">
+                    <h2>Recommended For You</h2>
+                    <p>Listings we think you’ll love.</p>
+                </header>
+                <div class="row">
+                    <div class="images-col">
+                        <div class="box-image">
+
+                            <div class="box-info-detalhes">
+
+                                <div class="box-title">
+                                    <p>COMPASS COMING SOON</p>
+                                </div>
+                                <div class="footer-info">
+                                    <div class="box-info">
+                                        <h2>$1,349,000</h2>
+                                        <p>3936 Sunset Drive<br>Los Angeles, CA 90027</p>
+                                    </div>
+
+                                    <div class="box-info-col">
+                                        <ul>
+                                            <li>3</li>
+                                            <li>Beds</li>
+                                        </ul>
+                                        <ul>
+                                            <li>2</li>
+                                            <li>Baths</li>
+                                        </ul>
+                                        <ul>
+                                            <li>1,550</li>
+                                            <li>Sq. Ft.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="image">
+                                <img src="./sources/compass-1.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="images-col">
+                        <div class="box-image">
+
+                            <div class="box-info-detalhes">
+
+                                <div class="box-title">
+                                    <p>LISTEN BY COMPASS</p>
+                                </div>
+                                <div class="footer-info">
+                                    <div class="box-info">
+                                        <h2>$940,000</h2>
+                                        <p>2207 Hopi Trail<br>Austin, TX 78703</p>
+                                    </div>
+
+                                    <div class="box-info-col">
+                                        <ul>
+                                            <li>3</li>
+                                            <li>Beds</li>
+                                        </ul>
+                                        <ul>
+                                            <li>2</li>
+                                            <li>Baths</li>
+                                        </ul>
+                                        <ul>
+                                            <li>1,621</li>
+                                            <li>Sq. Ft.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="image">
+                                <img src="./sources/compass-2.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="images-col">
+                        <div class="box-image">
+
+                            <div class="box-info-detalhes">
+
+                                <div class="box-title-learn-more">
+                                    <img src="./sources/5e0728bb0d37a194ce229aec_compasslogo.png" alt="">
+                                    <p>Private Exclusives</p>
+                                </div>
+                                <div class="learn-more">
+                                    <p>Work with a Compass agent to see private exclusives</p>
+                                    <button>Learn More</button>
+                                </div>
+                            </div>
+
+                            <div class="image">
+                                <img src="./sources/compass-3.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="images-col">
+                        <div class="box-image">
+
+                            <div class="box-info-detalhes">
+
+                                <div class="box-title">
+                                    <p>LISTEN BY COMPASS</p>
+                                </div>
+                                <div class="footer-info">
+                                    <div class="box-info">
+                                        <h2>$1,295,000</h2>
+                                        <p>2406 Westover Road<br>Austin, TX 78703</p>
+                                    </div>
+
+                                    <div class="box-info-col">
+                                        <ul>
+                                            <li>3</li>
+                                            <li>Beds</li>
+                                        </ul>
+                                        <ul>
+                                            <li>2</li>
+                                            <li>Baths</li>
+                                        </ul>
+                                        <ul>
+                                            <li>1,550</li>
+                                            <li>Sq. Ft.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="image">
+                                <img src="./sources/compass-5.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="images-col">
+                        <div class="box-image">
+
+                            <div class="box-info-detalhes">
+
+                                <div class="box-title">
+                                    <p>LISTEN BY COMPASS</p>
+                                </div>
+                                <div class="footer-info">
+                                    <div class="box-info">
+                                        <h2>$1,350,000</h2>
+                                        <p>2803 Bonnie Road<br>Austin, TX 78703</p>
+                                    </div>
+
+                                    <div class="box-info-col">
+                                        <ul>
+                                            <li>3</li>
+                                            <li>Beds</li>
+                                        </ul>
+                                        <ul>
+                                            <li>2</li>
+                                            <li>Baths</li>
+                                        </ul>
+                                        <ul>
+                                            <li>1,550</li>
+                                            <li>Sq. Ft.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="image">
+                                <img src="./sources/compass6.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="images-col">
+                        <div class="box-image">
+
+                            <div class="box-info-detalhes">
+
+                                <div class="box-title">
+                                    <p>LISTEN BY COMPASS</p>
+                                </div>
+                                <div class="footer-info">
+                                    <div class="box-info">
+                                        <h2>$1,288,000</h2>
+                                        <p>2113 Branden Street<br>Los Angeles, CA 90027</p>
+                                    </div>
+
+                                    <div class="box-info-col">
+                                        <ul>
+                                            <li>3</li>
+                                            <li>Beds</li>
+                                        </ul>
+                                        <ul>
+                                            <li>2</li>
+                                            <li>Baths</li>
+                                        </ul>
+                                        <ul>
+                                            <li>1,550</li>
+                                            <li>Sq. Ft.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="image">
+                                <img src="./sources/compass7.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <div class="teste"></div>
+    </main>
+
+
+    <script src="./js/script.js"></script>
+
+
+</body>
+
+</html>
